@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IGTTS Concept</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rwd.css">
+    <link rel="stylesheet" href="chat.css">
+    <script src="timer.js" defer></script>
+    <script src="chat.js" defer></script>
+
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="logo">
+                    <a href="#" class="logo"> <img src="media/ida_pix.jpg" /></a>
+                </div>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">testimonial</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">visit old site</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+  <!-- Body here --->
+
+<p><br></p>
+
+
+
+ <!--format timer-->  
+ 
+<div class="timer">
+<span>
+  <h1>COMING SOON...</h1>
+    <span id="dx"></span>
+    <span id="hx"></span> 
+    <span id="mx"></span> 
+    <span id="sx"></span>
+</div>
+
+<!--
+   
+<script>
+    function chatbot(prompt) {
+        fetch('/api/chatbot/' + encodeURIComponent(prompt))
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('chatbot-response').innerText = data;
+            });
+    }
+</script>
+
+
+<div class="chatbot">
+    <h2>Chat with our AI:</h2>
+    <input type="text" id="chatbot-prompt" placeholder="Type your message here...">
+    <button onclick="chatbot(document.getElementById('chatbot-prompt').value)">Send</button>
+    <p id="chatbot-response"></p>
+</div>
+-->
+
+
+  <!-- Chatbot container -->
+  <!--
+  <div id="chatbox" class="hidden">
+    <div id="chat-messages"></div>
+    <textarea id="chat-input" placeholder="Type your message here"></textarea>
+    <button id="chat-submit">Send</button>
+  </div>
+  <button id="chat-button">Chat</button>
+-->
+ 
+
+  <div id="chatbox" class="hidden">
+    <div id="chat-messages"></div>
+    <textarea id="chat-input" placeholder="Type your message here"></textarea>
+    <button id="chat-submit">Send</button>
+  </div>
+  <button id="chat-button">Chat</button>
+  <script src="chat.js"></script>
+</body>
+
+</html>
