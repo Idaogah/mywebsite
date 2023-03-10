@@ -1,6 +1,6 @@
 var eventDate = new Date("2023-03-31").getTime(); // Change this to your desired event date
 function countdown() {
-  
+
   
   var now = new Date().getTime();
   var remTime = eventDate - now;
