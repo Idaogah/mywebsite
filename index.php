@@ -6,6 +6,8 @@ class MyClass {
     }
 }
 
+<p></p>
+
 $myObject = new MyClass();
 $categories = $myObject->get_all_categories();
 
