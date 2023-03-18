@@ -1,4 +1,4 @@
-//Trading Bot Indicator 
+//Trading Bot Indicator Script
 
 //@version=5
 indicator("Volume Increase Alert", shorttitle="VIA")
