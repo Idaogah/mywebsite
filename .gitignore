@@ -5,8 +5,14 @@
 
 #.gitignore* // typing .gitignore* without `#` will ignore gitnore file but it's not good practice
 
-# ignore file or folder that with following names
+# ignore file or folder that start with __
 __*
+
+#  ignore any files ending in “.o” or “.a”
+*.[oa]
+
+#ignore all files whose names end with a tilde (~)
+*~
 
 
 # but do track error.log, even though you're ignoring .log files above 
