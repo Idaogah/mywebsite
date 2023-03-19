@@ -1,0 +1,31 @@
+# ignore files with following extensions 
+*.log 
+*.db
+*.exe
+
+#.gitignore* // typing .gitignore* without `#` will ignore gitnore file but it's not good practice
+
+# ignore file or folder that with following names
+__*
+
+
+# but do track error.log, even though you're ignoring .log files above 
+!error.log 
+
+# ignore any file or directory with the name "TODO" in the root directory  
+/TODO
+
+#ignore file with the name config
+/config*
+
+
+# ignore all files and folder in the following directory 
+build/
+target/
+bin/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt 
+doc/*.txt 
+
+# ignore all .pdf files in any subdirectory of doc/ directory e.g. doc/subdir/file.pdf
+doc/**/*.pdf 
