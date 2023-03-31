@@ -3,10 +3,11 @@
 *.db
 *.exe
 
+
 #.gitignore* // typing .gitignore* without `#` will ignore gitnore file but it's not good practice
 
 # ignore file or folder that start with __
-__*
+/__*
 
 #  ignore any files ending in “.o” or “.a”
 *.[oa]
